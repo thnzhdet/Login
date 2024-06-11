@@ -1,0 +1,17 @@
+td:nth-child(1) {
+    width: 80%;
+}
+td:nth-child(2) {
+    width: 20%;
+}
+td > a > img {
+    width: 180px;
+    height: auto;
+}
+td > iframe[name="page"] {
+    width: 100%;
+    height: 720px;
+ }
+table {
+    width: 100%;
+}

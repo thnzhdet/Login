@@ -1,0 +1,291 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#header{
+   display: flex;
+   width: 100%;
+   height: 80px;
+   padding: 0 30px;
+   /* margin-top: 2px; */
+   background-color: red;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#header>a img{
+    width: 151px;
+    height: 130px;
+}
+
+.header-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header-title h2{
+    font-size: 25px;
+    color: #f00;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #252525;
+}
+
+.banner-qc img{
+   width: 1200px;
+   height: 50vh;
+   object-fit: cover;
+}
+
+article{
+    border-radius: 6px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+
+.title-new{
+    background-color: rgb(123, 47, 47);
+    border-radius: 5px;
+}
+
+.title-new p{
+   padding: 25px;
+   font-size: 18px;
+   color: #fff;
+   font-weight: 600;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-top: 5px;
+}
+
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item{
+    margin: 0 25px;
+}
+
+#menu .item a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.search-box-input{
+    flex: 1;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000;
+}
+
+.search-box-btn{
+    position: absolute;
+    width: 55px;
+    height: 32px;
+    padding: 5px;
+    right: 0;
+    border: none;
+    outline: none;
+    border-radius: 1px 0 0 1px;
+    background-color: gray;
+}
+
+.menu{
+    text-align: center;
+    font-variant: small-caps;
+    position: relative;
+}  
+
+.menu>ul>li{
+    display: inline-block;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+}
+.menu ul ul {
+    display: none;
+    position: absolute;
+    margin: 5px;
+    margin-top: 11px;
+    width: 290px;
+    padding: 10px;
+    border-radius: 1px;
+    background-color: #252525;
+    list-style: none;
+    text-align: left;
+    z-index: 1;
+}
+.menu>ul>ul> a{
+    display: block;
+    line-height: 30px;
+    color: gray;
+    text-decoration: none;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.menu>ul>li> a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menu>ul>li>a:hover{
+    color: gray;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul ul a {
+    color: white;
+    text-decoration: none;
+  }
+
+.menu>ul>ul>li:hover{
+    border-radius: 10px;
+    background-color: red;
+}
+
+.menu ul ul > li:hover> a{
+    color: red;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-between;
+}
+
+.product{
+    width: 220px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 5px grey;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+    position: relative; 
+}
+
+.product>.name{
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.product>img{
+    width: 100px;
+    height: 100px;
+    /* margin-bottom: 10px; */
+}
+
+.product>.price {
+    font-size: large;
+    color: #f00;
+    margin-bottom: 5px;
+}
+
+.product>.discount {
+    font-size: 16px;
+    color: #008000;
+    margin-bottom: 5px;
+}
+
+.product>.time {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.product>.payment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.product>.payment img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.product> .promotion {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.product>.add {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color:  rgb(147, 29, 21);
+    padding: 20px;
+    color: white;
+    margin-top: 800px;
+}
+
+.footer-content {
+   margin-top: 10px;
+    width: 300px;
+    text-align: justify;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-title {
+    border-bottom: 3px solid #4a4a4a70;
+}
+
+.footer-bottom {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+

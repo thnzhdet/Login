@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#header{
+   display: flex;
+   width: 100%;
+   height: 80px;
+   padding: 0 30px;
+   /* margin-top: 2px; */
+   background-color: red;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#header>a img{
+    width: 151px;
+    height: 130px;
+}
+
+.header-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header-title h2{
+    font-size: 25px;
+    color: #f00;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #252525;
+}
+
+img{
+    width: 100%;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gio-hang{
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1100px;
+}
+
+.gio-hang-1{
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 1100px;
+}
+
+.item-gio-hang{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+}
+.item-gio-hang .hinhAnh img{
+    width: 60px;
+    height: 60px;
+}
+
+.item-gio-hang .hinhAnh, 
+.soLuong , 
+.tongTien, 
+.hanhDong{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item-gio-hang .hanhDong i{
+    background-color: gray;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.item-gio-hang .hanhDong i:hover{
+    background-color: red;
+}
+
+.item-gio-hang .gia{
+    flex: 2;
+}
+
+.item-gio-hang .gia .giaGoc{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #aaa ;
+}
+
+.item-gio-hang .gia .giaBan{
+    color: #F7452E;
+}
+
+.item-gio-hang .ten{
+    flex: 3;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item{
+    margin: 0 25px;
+}
+
+#menu .item a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.search-box-input{
+    flex: 1;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000;
+}
+
+.search-box-btn{
+   position: absolute;
+   width: 55px;
+   height: 32px;
+   padding: 5px;
+   right: 0;
+   border: none;
+   outline: none;
+   border-radius: 1px 0 0 1px;
+   background-color: gray;
+}
+
+.menu{
+    text-align: center;
+    font-variant: small-caps;
+    position: relative;
+}  
+
+.menu>ul>li{
+    display: inline-block;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+}
+.menu ul ul {
+    display: none;
+    position: absolute;
+    margin: 5px;
+    margin-top: 11px;
+    width: 290px;
+    padding: 10px;
+    border-radius: 1px;
+    background-color: #252525;
+    list-style: none;
+    text-align: left;
+    z-index: 1;
+}
+.menu>ul>ul> a{
+    display: block;
+    line-height: 30px;
+    color: gray;
+    text-decoration: none;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.menu>ul>li> a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menu>ul>li>a:hover{
+    color: gray;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul ul a {
+    color: white;
+    text-decoration: none;
+  }
+
+.menu>ul>ul>li:hover{
+    border-radius: 10px;
+    background-color: red;
+}
+
+.menu ul ul > li:hover> a{
+    color: red;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+footer{
+    background-color:  rgb(147, 29, 21);
+    padding: 20px;
+    color: white;
+    margin-top:150px;
+}
+
+.footer-content {
+   margin-top: 10px;
+    width: 300px;
+    text-align: justify;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-title {
+    border-bottom: 3px solid #4a4a4a70;
+}
+
+.footer-bottom {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.breadcrumb .breadcrumb-item {
+    text-decoration: none;
+    font-size: var(--font-content);
+    color: blue;
+    text-transform: uppercase;
+}
+
+.breadcrumb .active {
+    color: blue;
+    font-weight: 500;
+}
+
+

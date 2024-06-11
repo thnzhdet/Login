@@ -1,0 +1,272 @@
+.container{
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body{
+  background-image: url('image/Background-bau-troi.jpg');
+}
+
+header{
+   width: 100%;
+   height: 300px;
+   background-color: orangered;
+   position: relative;
+}
+
+header img{
+    width: 100%;
+    height: 300px;
+}
+header .top-right{
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header .top-right a{
+   text-decoration: none;
+   color: white;
+   line-height: 40px;
+   padding: 5px;
+}
+
+header .top-right a:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+ }
+ header .comany-info{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+ }
+ header .comany-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted red;
+ }
+
+ header .comany-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: orangered;
+    letter-spacing: 2px;
+ }
+
+.menu {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: larger;
+  }
+  
+.menu > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+  .menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    padding-top: 0px;
+    text-decoration: none;
+  }
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    width: 200px;
+    padding: 4px;
+    background-color: aqua;
+    border-radius: 3px; 
+    list-style: none;
+    text-align: left;
+    z-index: 1;
+  }
+  .menu > ul > li:hover > ul {
+    display: block;
+  }
+  .menu ul ul a {
+    color: red;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+  }
+  .menu ul ul > li:hover {
+    background-color: #11beca5e;
+    border-radius: 10px;
+  }
+  .menu ul ul > li:hover > a {
+    color: green;
+  }
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: orange ;
+}
+
+nav a{
+    color: green;
+    text-decoration: none;
+    /* margin: 0 10px; */
+}
+
+nav a:visited{
+    color: red;
+}
+
+nav a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+aside{
+  border-radius: 5px;
+  width: 25%;
+  min-height: 100px;
+  background-color: white;
+  float: right;
+}
+
+footer{
+    border-top: 5px double orangered;
+    line-height: 30px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+article{
+    border-radius: 6px;
+    min-height: 650px;
+    width: 72%;
+    margin: 5px;
+    background-color: bisque;
+    box-shadow: 0 0 5px grey;
+    float: left;
+}
+
+.column{
+    width: 20%;
+    float: left;
+    margin: 5px 17px;    
+}
+
+.san-pham{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.san-pham>.ten{
+   color: red;
+   font-family: impact;
+}
+
+.san-pham>img{
+    max-width: 98%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.san-pham:hover{
+    background-color: bisque;
+}
+
+.san-pham>.gia{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-size: 15px;
+    color: orangered;
+    font-family: Impact;
+}
+.san-pham>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
+.san-pham>.icons img{
+    width: 20px;
+    height: 30px;
+}
+.san-pham>.newicns{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+
+ul.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+}
+
+ul.vmenu>li{
+   border-bottom: 1px dotted orangered;
+}
+
+ul.vmenu>li>a{ 
+ text-decoration: none;
+ line-height: 30px;
+ font-variant: small-caps;
+ color: orange;
+ background: url('image/bullet-red.jpg') no-repeat left center;
+ padding-left: 25px;
+}
+
+ul.vmenu>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    background-color: orange;
+    background: url('image/bullet-red.jpg') no-repeat left center;
+    display: block;
+}
+
+.banner-qc img{
+    width: 90%;
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.banner-qc>.abt-1 img{
+width: 400px;
+height: 500px;
+float: right;
+margin-left: 20px;
+}
+
+.banner-qc>.abt-1 h1{
+  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+

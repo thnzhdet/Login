@@ -1,0 +1,46 @@
+.menu{
+    background-color: orangered;
+    text-align: center;
+        
+}
+
+.menu>ul{
+    background-color: rgb(205, 171, 159);
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    padding: 0;
+}
+.menu>ul>li{
+    display: inline-table;
+    line-height: 40px;
+    width: 8%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.menu a:hover{
+    background-color: orange;
+    color: red;
+    border-radius: 10px;
+}
+.menu li{
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    background-color: orangered;
+    width: 77%;
+    list-style-type: none;
+    display: none;
+    z-index: 1;
+}
+.sub-menu>li{
+    padding: 0;
+    margin-left: -40px;
+}
+.menu li:hover .sub-menu{
+    display: block;
+}
